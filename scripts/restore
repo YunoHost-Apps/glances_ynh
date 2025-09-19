@@ -20,6 +20,9 @@ ynh_restore "$install_dir"
 #=================================================
 ynh_script_progression "Restoring system configurations related to $app..."
 
+ynh_config_add --template="sudoer" --destination="/etc/sudoers.d/$app"
+chown root:root "/etc/sudoers.d/$app"
+
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_restore "/etc/systemd/system/$app.service"
