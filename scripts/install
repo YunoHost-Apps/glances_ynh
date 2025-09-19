@@ -27,6 +27,9 @@ chown -R $app:$app "$install_dir"
 
 #ynh_config_add --template="glances.conf" --destination="$install_dir/venv/share/doc/glances/glances.conf"
 
+ynh_config_add --template="sudoer" --destination="/etc/sudoers.d/$app"
+chown root:root "/etc/sudoers.d/$app"
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
