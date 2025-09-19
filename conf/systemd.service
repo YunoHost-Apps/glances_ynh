@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/venv/bin/
-ExecStart=__INSTALL_DIR__/venv/bin/python3 glances -w -B 127.0.0.1
+ExecStart=/usr/bin/sudo __INSTALL_DIR__/glances -w -B 127.0.0.1 -p __PORT__
 Restart=always
 RestartSec=3
 
