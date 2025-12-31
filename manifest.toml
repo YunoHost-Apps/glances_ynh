@@ -18,7 +18,7 @@ admindoc = "https://glances.readthedocs.io/en/latest/index.html"
 code = "https://github.com/nicolargo/glances"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
