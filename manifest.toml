@@ -7,7 +7,7 @@ name = "Glances"
 description.en = "Real-time monitoring tool"
 description.fr = "Outil de suivi en temps réel"
 
-version = "4.3.0.8~ynh1"
+version = "4.4.1~ynh0"
 
 maintainers = ["eric_G"]
 
