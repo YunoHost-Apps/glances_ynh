@@ -25,7 +25,6 @@ RestrictRealtime=yes
 DevicePolicy=closed
 ProtectClock=yes
 ProtectHostname=yes
-ProtectProc=invisible
 ProtectSystem=full
 ProtectControlGroups=yes
 ProtectKernelModules=yes
