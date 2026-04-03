@@ -7,7 +7,7 @@ name = "Glances"
 description.en = "Real-time monitoring tool"
 description.fr = "Outil de suivi en temps réel"
 
-version = "4.5.2~ynh1"
+version = "4.5.3~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -18,7 +18,7 @@ admindoc = "https://glances.readthedocs.io/en/latest/index.html"
 code = "https://github.com/nicolargo/glances"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
